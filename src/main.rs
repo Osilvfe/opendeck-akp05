@@ -47,7 +47,7 @@ impl openaction::GlobalEventHandler for GlobalEventHandler {
         _outbound: &mut OutboundEventManager,
     ) -> EventHandlerResult {
         log::debug!("Asked to set image");
-        log::debug!("Set image event: {:#?}", event);
+        log::trace!("Set image event: {:#?}", event);
 
         let id = event.device.clone();
 
