@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.0] - 2025-12-09
+
+Initial release for AKP-05e
+
 ## [0.7.3] - 2025-10-25
 
 ### 🚀 Features
