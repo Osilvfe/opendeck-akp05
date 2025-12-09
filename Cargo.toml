@@ -1,6 +1,6 @@
 [package]
-name = "opendeck-akp05e"
-version = "0.8.1"
+name = "opendeck-akp05"
+version = "0.8.2"
 edition = "2024"
 
 [dependencies]

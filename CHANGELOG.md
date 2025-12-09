@@ -2,13 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.2] - 2025-12-09
+
+Rename from opendeck-akp05e to opendeck-akp05
+
 ## [0.8.1] - 2025-12-09
 
 Less log spam & ignore touchscreen swipes (fixes hang)
 
 ## [0.8.0] - 2025-12-09
 
-Initial release for AKP-05e
+Initial release for AKP-05
 
 ## [0.7.3] - 2025-10-25
 

@@ -1,4 +1,4 @@
-id := "com.github.ambiso.opendeck-akp05e.sdPlugin"
+id := "com.github.ambiso.opendeck-akp.sdPlugin"
 
 release: bump package tag
 
@@ -41,10 +41,10 @@ collect:
     mkdir -p build/{{id}}
     cp -r assets build/{{id}}
     cp manifest.json build/{{id}}
-    cp target/plugin-linux/x86_64-unknown-linux-gnu/release/opendeck-akp05e build/{{id}}/opendeck-akp05e-linux
-    cp target/plugin-mac/universal2-apple-darwin/release/opendeck-akp05e build/{{id}}/opendeck-akp05e-mac
-    cp target/plugin-win/x86_64-pc-windows-gnu/release/opendeck-akp05e.exe build/{{id}}/opendeck-akp05e-win.exe
+    cp target/plugin-linux/x86_64-unknown-linux-gnu/release/opendeck-akp05 build/{{id}}/opendeck-akp05-linux
+    cp target/plugin-mac/universal2-apple-darwin/release/opendeck-akp05 build/{{id}}/opendeck-akp05-mac
+    cp target/plugin-win/x86_64-pc-windows-gnu/release/opendeck-akp05.exe build/{{id}}/opendeck-akp05-win.exe
 
 [working-directory: "build"]
 zip:
-    zip -r opendeck-akp05e.plugin.zip {{id}}/
+    zip -r opendeck-akp05.plugin.zip {{id}}/

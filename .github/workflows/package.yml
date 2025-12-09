@@ -25,10 +25,10 @@ jobs:
         run: cargo test --verbose
       - uses: actions/upload-artifact@v4
         with:
-          name: opendeck-akp05e.plugin
+          name: opendeck-akp05.plugin
           path: build/
       - name: Release
         uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
         with:
-          files: build/opendeck-akp05e.plugin.zip
+          files: build/opendeck-akp05.plugin.zip
