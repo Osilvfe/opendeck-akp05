@@ -45,6 +45,7 @@ impl Kind {
         match vid {
             AJAZZ_VID => match pid {
                 AKP05E_PID => Some(Kind::Akp05E),
+                AKP05_PID => Some(Kind::Akp05),
                 _ => None,
             },
 
@@ -55,11 +56,6 @@ impl Kind {
 
             VSDINSIDE_VID => match pid {
                 N4_PRO_PID => Some(Kind::N4Pro),
-                _ => None,
-            },
-
-            AJAZZ_VID => match pid {
-                AKP05_PID => Some(Kind::Akp05),
                 _ => None,
             },
             
