@@ -29,7 +29,6 @@ pub const AKP05E_PID: u16 = 0x3004;
 pub const MIRABOX_VID: u16 = 0x6603;
 pub const N4EN_PID: u16 = 0x1007;
 
-pub const AJAZZ_VID: u16 = 0x0300;
 pub const AKP05_PID: u16 = 0x3006;
 
 // Map all queries to usage page 65440 and usage id 1 for now
@@ -60,7 +59,7 @@ impl Kind {
             },
 
             AJAZZ_VID => match pid {
-                AKP05E_PID => Some(Kind::Akp05),
+                AKP05_PID => Some(Kind::Akp05),
                 _ => None,
             },
             
