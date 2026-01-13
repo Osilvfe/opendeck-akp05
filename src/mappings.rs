@@ -17,7 +17,7 @@ pub enum Kind {
     Akp05E,
     N4EN,
     N4Pro,
-    AKP05,
+    Akp05,
 }
 
 pub const VSDINSIDE_VID: u16 = 0x5548;
